@@ -19,7 +19,7 @@ class Area():
     self.fill_color = back
     if color:
       self.fill_color = color
-  def color(self,new color):
+  def color(self,new_color):
     self.fill_color = new_color
   def fill(self):
     pygame.draw.rect(mv,self.fill_color,self.rect)
