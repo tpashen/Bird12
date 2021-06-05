@@ -50,7 +50,7 @@ columnX = [0,0,200,200,400,400,600,600]
 for i in range(4):
     a = random.randint(100,300)
     columDownY = widthDisplay - a
-    columUpY = widthDisplay - a - 4500
+    columUpY = widthDisplay - a - 450
     column = Picture('column.png', i*200+500, columnDownY, 100, 300)
     column1 = Picture('column.png', i*200+500, columUpY, 100, 300, 180)
     column_list.append(column)
