@@ -20,6 +20,7 @@ class Area():
     if color:
       self.fill_color = color
   def color(self,new color):
+    self.fill_color = new_color
   def fill(self):
     pygame.draw.rect(mv,self.fill_color,self.rect)
   def collidepoint(self,x,y):
